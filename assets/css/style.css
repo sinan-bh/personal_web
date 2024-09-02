@@ -138,6 +138,19 @@ h6 {
   color: #ffb727;
 }
 
+.fixed-top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width : 992px){
+  .fixed-top{
+    display: flex;
+    justify-content: end;
+    
+  }
+}
 
 
 /**
